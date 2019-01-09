@@ -23,7 +23,10 @@ The page is themed with information and images of "The Beatles".
 
 
 ## Built With
-•	HTML5 •	Bootstrap4 •	JavaScript (ES5)
+* HTML
+* CSS
+* Bootstrap4
+* jQuery
 
 ## Authors
 •	Philippe Recto
