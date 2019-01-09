@@ -2,6 +2,11 @@
 
 This game is a multiple choice game created with jQuery and Javascript. There are 10 questions. each question contains 4 possible answers that the user will need to choose from.
 
+## Getting Started
+
+To use the Loan Calculator, simply deploy by posting this webpage on your browser: https://precto1285.github.io/BeatlesTrivia/
+
+
 1. press Start
 2. You have 10 seconds to answer each multiple choice question
 3. Select 1 of the buttons by clicking on it
@@ -15,3 +20,13 @@ This game is a multiple choice game created with jQuery and Javascript. There ar
 10. Press Reset to start game again
 
 The page is themed with information and images of "The Beatles".
+
+
+## Built With
+•	HTML5 •	Bootstrap4 •	JavaScript (ES5)
+
+## Authors
+•	Philippe Recto
+
+## Acknowledgments
+•	Thank you very much UCSD-Extension Coding BootCamp for the guidance and tutorials!
