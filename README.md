@@ -4,7 +4,7 @@ This game is a multiple choice game created with jQuery and Javascript. There ar
 
 ## Getting Started
 
-To use the Loan Calculator, simply deploy by posting this webpage on your browser: https://precto1285.github.io/BeatlesTrivia/
+To use the BeatlesTrivia App, simply deploy by posting this webpage on your browser: https://precto1285.github.io/BeatlesTrivia/
 
 
 1. press Start
