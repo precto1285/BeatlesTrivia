@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Quiz Game</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron mt-5">
+      <h1 class="text-center">Beatles Trivia!</h1>
+
+      <p>This game is a multiple choice game created with jQuery and Javascript. There are 10 questions. each question
+        contains 4 possible answers that the user will need to choose from.You have 10 seconds to answer each multiple
+        choice question.</p>
+      <button onclick="startGame()" id="startButton" class="btn btn-warning btn-lg btn-block">Take A Magical Mystery
+        Quiz!</button>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 mb-3">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="text-center">Question:</h5>
+          </div>
+          <div class="card-body">
+            <div class="text-center" id="time">
+            </div>
+            <hr>
+            <div id="question"></div>
+            <hr>
+            <div id="answers"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="text-center">Your Scores:</h5>
+          </div>
+          <div class="card-body text-center">
+            <div class="m-5" id='summary'></div>
+            <div id="correctAnswers"></div>
+            <div id="incorrectAnswers"></div>
+            <div id="unanswered"></div>
+            <div id="beatlesImage"></div>
+          </div>
+          <div class="card-footer mb-3">
+            <button class="btn btn-danger btn-block" onclick="resetGame()" id="resetButton">Reset Game</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
